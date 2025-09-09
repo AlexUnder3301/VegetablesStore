@@ -1,7 +1,7 @@
 import { screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { describe, it, expect, vi, beforeAll } from 'vitest'
-import { render } from '../../test/test-utils'
+import { render } from '../../lib/test-utils'
 import Stepper from './Stepper'
 
 // Мок для matchMedia

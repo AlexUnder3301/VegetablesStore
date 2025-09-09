@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from 'vitest'
 import { render, screen } from '@testing-library/react'
-import { AppContext } from './utils/context'
-import type {  CardDataItemType } from './utils/types'
+import { AppContext } from '../shared/utils/context'
+import type {  CardDataItemType } from '../shared/utils/types'
 
 const mockCartItem: CardDataItemType = {
   id: 1,

@@ -1,10 +1,10 @@
 import { screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { describe, it, expect, vi, beforeAll } from 'vitest'
-import { render } from '../../test/test-utils'
+import { render } from '../../../shared/lib/test-utils'
 import ItemCard from './ItemCard'
-import { AppContext } from '../../utils/context'
-import type { AppContextType } from '../../utils/types'
+import { AppContext } from '../../../shared/utils/context'
+import type { AppContextType } from '../../../shared/utils/types'
 
 // Мок для matchMedia
 beforeAll(() => {
